@@ -27,7 +27,7 @@ export class TodosService {
           this.todosLoaded = true;
           resolve(this.todos);
           this.emitTodosUpdate();
-        }, 2000);
+        }, 0);
       }
     });
   }
@@ -38,7 +38,7 @@ export class TodosService {
         this.todos.push(todo);
         resolve();
         this.emitTodosUpdate();
-      }, 2000);
+      }, 0);
     });
   }
 
