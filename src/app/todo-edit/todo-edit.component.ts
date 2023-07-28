@@ -28,3 +28,4 @@ export class TodoEditComponent implements OnInit {
     this.router.navigate(['/'], { state: { editTodo: todo } });
   }
 }
+// <!-- avevo iniziato a scrivere il codice per modificare i tasks aggiunti ma sono arrivato corto col tempo e non ho completato questo funzionamento-->
