@@ -1,0 +1,7 @@
+<h2>All Todos</h2>
+<div class="todoeditlist">
+  <div *ngFor="let todo of todos">
+    <span>{{ todo.title }}</span>
+    <button (click)="editTodo(todo)">Edit</button>
+  </div>
+</div>

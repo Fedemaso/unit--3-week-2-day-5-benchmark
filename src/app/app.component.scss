@@ -1,0 +1,28 @@
+nav {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}

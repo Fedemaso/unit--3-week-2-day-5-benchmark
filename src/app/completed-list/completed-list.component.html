@@ -1,0 +1,9 @@
+<h2>Completed List</h2>
+<div id="completed-list">
+  <div *ngIf="completedTodos.length === 0">ops non ci sono tasks</div>
+  <div *ngFor="let todo of completedTodos">
+    <span>{{ todo.title }}</span>
+    <span *ngIf="todo.completed">(completed)</span>
+    <button (click)="deleteCompleted(todo)">Elimina</button>
+  </div>
+</div>
